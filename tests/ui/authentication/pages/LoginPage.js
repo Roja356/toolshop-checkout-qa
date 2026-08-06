@@ -34,7 +34,9 @@ export class LoginPage {
 
     async verifySuccessfulLogin() {
         await expect(this.accountHeader).toBeVisible();
-    }
+        await expect(this.accountHeader).not.toHaveText('', { timeout: 10000 }); 
+}
+    
 
     async verifyInvalidCredentialError() {
         await expect(this.errorMessage).toBeVisible();
