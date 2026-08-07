@@ -1,0 +1,33 @@
+{
+  "name": "toolshop-checkout-qa",
+  "version": "1.0.0",
+  "description": "- Web UI (stable): https://practicesoftwaretesting.com\r - Web UI (bug-seeded): https://with-bugs.practicesoftwaretesting.com\r - API (stable): https://api.practicesoftwaretesting.com\r - API (bug-seeded): https://api-with-bugs.practicesoftwaretesting.com\r - Local (Docker): UI → http://localhost:4200 , API → http://localhost:8091",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roja356/toolshop-checkout-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Roja356/toolshop-checkout-qa/issues"
+  },
+  "homepage": "https://github.com/Roja356/toolshop-checkout-qa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "dotenv": "^17.4.2"
+  }
+}
