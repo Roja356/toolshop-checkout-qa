@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../authentication/pages/LoginPage';
-import { SecurityPage } from './pages/SecurityPage';
+const { LoginPage } = require('../checkout/pages/loginpage');
+const { InvoicesPage } = require('./pages/invoicepage');
 
 test.describe('Invoice Security', () => {
 
